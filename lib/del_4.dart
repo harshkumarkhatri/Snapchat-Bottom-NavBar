@@ -9,7 +9,9 @@ class _del4State extends State<del4> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child:Text("44444444")
-    );
+        alignment: Alignment.topCenter,
+        color: Colors.red,
+        height: MediaQuery.of(context).size.height,
+        child: SafeArea(child: Text("44444444444")));
   }
 }

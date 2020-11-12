@@ -9,7 +9,9 @@ class _del2State extends State<del2> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child:Text("22222222222")
-    );
+        alignment: Alignment.topCenter,
+        color: Colors.red,
+        height: MediaQuery.of(context).size.height,
+        child: SafeArea(child: Text("2222222")));
   }
 }
